@@ -18,7 +18,7 @@
 
 ###如何使用:
 
-运行之前你需要有node.js 0.6.x + npm环境.
+运行之前你需要有> node.js 0.6.x + npm环境.
 
 	git clone git@github.com:lvjian700/jsgraden.git
 	cd jsgraden
