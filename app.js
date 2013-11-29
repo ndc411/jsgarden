@@ -7,8 +7,7 @@ var express = require('express')
   , Resource = require('express-resource')
   , routes = require('./routes');
 
-var app = module.exports = express.createServer();
-
+var app = express();
 // Configuration
 
 app.configure(function(){
@@ -54,4 +53,4 @@ io.sockets.on('connection', function(socket) {
 });
 
 app.listen(process.env.VCAP_APP_PORT || 3000);
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+console.log("Express server listening on port %d in %s mode", 3000, app.settings.env);
